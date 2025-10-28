@@ -1,8 +1,0 @@
-.{
-	.blueprints = .{
-		.{.id = "wormways:hubs/hubCrystalYellow"},
-	},
-	.children = .{
-    .red = "wormways:bridgeGroup1",
-	},
-}
