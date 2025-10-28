@@ -1,0 +1,25 @@
+.{
+	.blueprints = .{
+	  .{.id = "wormways:bridges/worn/bridgeWorn_straight", .chance = 23},
+    .{.id = "wormways:bridges/worn/bridgeWorn_down", .chance = 20},
+    .{.id = "wormways:bridges/worn/bridgeWorn_snakeLeft", .chance = 16},
+    .{.id = "wormways:bridges/worn/bridgeWorn_snakeRight", .chance = 16},
+    .{.id = "wormways:bridges/worn/bridgeWorn_left", .chance = 6},
+    .{.id = "wormways:bridges/worn/bridgeWorn_right", .chance = 6},
+    .{.id = "wormways:bridges/worn/bridgeWorn_up", .chance = 5},
+    
+    .{.id = "wormways:bridges/ruin/bridgeRuin_straight", .chance = 7},
+    .{.id = "wormways:bridges/ruin/bridgeRuin_down", .chance = 9},
+    .{.id = "wormways:bridges/ruin/bridgeRuin_snakeLeft", .chance = 9},
+    .{.id = "wormways:bridges/ruin/bridgeRuin_snakeRight", .chance = 9}
+    .{.id = "wormways:bridges/ruin/bridgeRuin_left", .chance = 3},
+    .{.id = "wormways:bridges/ruin/bridgeRuin_right", .chance = 3},
+	},
+	.children = .{
+    .orange = "wormways:bridgeGroup2",
+    .blue = "wormways:pillarGroup2",
+
+    .yellow = "wormways:bridgeGroup3",
+    .violet = "wormways:pillarGroup2",
+	},
+}

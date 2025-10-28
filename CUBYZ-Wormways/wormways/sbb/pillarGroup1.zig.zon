@@ -1,0 +1,8 @@
+.{
+  .blueprints = .{
+    .{.id = "wormways:lightPillars/pillarUnlit", .chance = 46},
+    .{.id = "wormways:lightPillars/pillarLit", .chance = 22},
+    .{.id = "wormways:lightPillars/pillarBroken2", .chance = 20},
+    .{.id = "wormways:lightPillars/pillarFallen2", .chance = 12},
+  },
+}
